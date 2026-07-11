@@ -3,7 +3,7 @@
 A modern and responsive portfolio website showcasing my projects, skills, achievements, and experience.
 
 ## 🚀 Live Demo
-https://github.com/shardulsatyam/portfolio/
+https://shardulsatyam.github.io/Portfolio/
 
 ## 🛠️ Tech Stack
 - HTML5
