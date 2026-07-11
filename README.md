@@ -19,7 +19,7 @@ https://github.com/shardulsatyam/portfolio/
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="file.png" width="95%">
+  <img src="screenshot.png" width="95%">
   </p>
 
 ## 📬 Contact
