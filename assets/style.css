@@ -454,3 +454,41 @@ footer{
 @media (prefers-reduced-motion: reduce){
   *{ animation:none !important; transition:none !important; }
 }
+#poems{
+  background:var(--paper-2);
+  border-top:2px solid var(--ink);
+  border-bottom:2px solid var(--ink);
+}
+.poem-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  gap:32px;
+}
+.poem-card{
+  background:repeating-linear-gradient(var(--paper) 0px, var(--paper) 27px, var(--line) 28px);
+  border:2px solid var(--ink);
+  border-radius:12px;
+  padding:24px 24px 24px 32px;
+  box-shadow:5px 5px 0 var(--ink);
+  transform:rotate(-1deg);
+}
+.poem-card:nth-child(even){ transform:rotate(1deg); }
+.poem-card h3{
+  font-family:'Baloo 2', sans-serif;
+  color:var(--coral);
+  margin-bottom:12px;
+}
+.poem-card p{
+  font-family:'Caveat', cursive;
+  font-size:1.4rem;
+  line-height:28px;
+  color:var(--ink);
+}
+.poem-author{
+  display:block;
+  text-align:right;
+  font-family:'Caveat', cursive;
+  font-size:1.3rem;
+  color:var(--coral);
+  margin-top:10px;
+}
